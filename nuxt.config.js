@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - poc-google-analytics',
-    title: 'poc-google-analytics',
+    title: "POC Google Analytics",
     htmlAttrs: {
       lang: 'en'
     },
@@ -20,11 +20,19 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  css: ["~/assets/scss/style.scss"],
+
+  // Customize the progress-bar color
+    loading: {
+      color: "DodgerBlue",
+      height: "5px",
+      continuous: true,
+      duration: 3000
+    },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/plotly', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -42,20 +50,11 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
+    customVariables: ["~/assets/scss/variables.scss"],
+    optionsPath: "./vuetify.options.js",
+    treeShake: true,
+    options: {
+      customProperties: true
     }
   },
 
