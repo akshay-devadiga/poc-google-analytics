@@ -12,7 +12,7 @@
 <script>
 export default {
   head() {
-    return {
+    return {  
       title: "NuxtJs UI kit | Free UI kit built with Vuetify",
       meta: [
         {
