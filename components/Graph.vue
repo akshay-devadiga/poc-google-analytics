@@ -19,7 +19,7 @@
 </template>
 <script>
 export default {
-  name: "ComingSoon",
+  name: "graph",
   data() {
     return {};
   },

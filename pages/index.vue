@@ -37,7 +37,7 @@ export default {
   },
   components: {
     Banner: () => import("@/components/Banner"),
-    Graph: () => import("@/components/graph"),
+    Graph: () => import("@/components/Graph"),
     TestimonialText: () =>
       import("@/components/testimonial/TestimonialText"),
     Testimonial: () => import("@/components/testimonial/Testimonial"),
