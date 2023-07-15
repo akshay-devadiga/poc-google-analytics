@@ -35,7 +35,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/plotly', mode: 'client' },
-    { src: '~/plugins/google-analytics', mode: 'client' },
+    // { src: '~/plugins/google-analytics', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -48,8 +48,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: ['@nuxtjs/gtm'],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
@@ -64,7 +63,9 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-
+  gtm: {
+    id: process.env.GTM_ID
+  },
   env: {
     googleAnalyticsId: process.env.GTM_ID
   }
