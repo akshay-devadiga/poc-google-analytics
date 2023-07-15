@@ -64,7 +64,12 @@ export default {
   build: {
   },
   gtm: {
-    id: process.env.GTM_ID
+    id: 'GTM-XXXXXXX'
+  },
+  publicRuntimeConfig: {
+    gtm: {
+      id: process.env.GTM_ID
+    }
   },
   env: {
     googleAnalyticsId: process.env.GTM_ID
