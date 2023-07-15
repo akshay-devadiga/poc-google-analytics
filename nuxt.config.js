@@ -6,7 +6,7 @@ export default {
   ssr:false,
   head: {
     titleTemplate: '%s - poc-google-analytics',
-    title: "POC Google Analytics",
+    title: "Dummy Advisors",
     htmlAttrs: {
       lang: 'en'
     },

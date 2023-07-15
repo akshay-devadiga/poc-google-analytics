@@ -13,12 +13,12 @@
 export default {
   head() {
     return {  
-      title: "NuxtJs UI kit | Free UI kit built with Vuetify",
+      title: "Dummy Advisors",
       meta: [
         {
           hid: "description",
-          name: "NuxtJs UI kit",
-          content: "NuxtJs UI kit is the best way"
+          name: "Dummy Advisors",
+          content: "Dummy Advisors - Mock Nuxt 2 website"
         }
       ]
     };

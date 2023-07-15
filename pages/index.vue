@@ -21,7 +21,7 @@
 export default {
   head() {
     return {
-      title: "NuxtJs UI kit | Free UI kit built with Vuetify",
+      title: "Dummy Advisors",
       meta: [
         {
           hid: "description",
