@@ -17,7 +17,7 @@ export default {
 <style lang="scss">
 .logo a {
   display: flex;
-  color: white;
+  color: white !important;
   font-size: 2rem;
   font-weight: 600;
 }
