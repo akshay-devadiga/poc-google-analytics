@@ -9,7 +9,7 @@
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
               <h2 class="section-title font-weight-medium">
-                Simple Pricing to make your Work Effective
+                Financial Insights Hub: Empowering Your Financial Future
               </h2>
               <p>We offer 100% satisafaction and Money back Guarantee</p>
             </div>
@@ -29,29 +29,7 @@
               elevation="0"
               class="pricing-card overflow-hidden mb-15"
             >
-              <v-card-text class="text-center pa-15">
-                <h5 class="font-weight-regular font-18">Regular Plan</h5>
-                <div>
-                  <sup>$</sup>
-                  <span class="price-text">39</span>
-                  <h6 class="font-14 text-uppercase font-weight-regular">
-                    Yearly
-                  </h6>
-                </div>
-                <p class="mt-16 pt-4">
-                  The Master license allows you to customize, store and even
-                  host your website using your platform
-                </p>
-              </v-card-text>
-              <v-btn
-                block
-                large
-                depressed
-                color="info"
-                class="text-uppercase rounded-t-0"
-              >
-                Choose Plan
-              </v-btn>
+              <WistiaVideoPlayer videoId="u5m22gkemm" />
             </v-card>
           </v-col>
           <v-col cols="12" md="6" lg="4">
@@ -60,60 +38,24 @@
               elevation="0"
               class="pricing-card overflow-hidden mb-15"
             >
-              <v-card-text class="text-center pa-15">
-                <h5 class="font-weight-regular font-18">Master Plan</h5>
-                <div>
-                  <sup>$</sup>
-                  <span class="price-text">49</span>
-                  <h6 class="font-14 text-uppercase font-weight-regular">
-                    Yearly
-                  </h6>
-                </div>
-                <p class="mt-16 pt-4">
-                  The Master license allows you to customize, store and even
-                  host your website using your platform
-                </p>
-              </v-card-text>
-              <v-btn
-                block
-                large
-                depressed
-                color="error"
-                class="text-uppercase rounded-t-0"
-              >
-                Choose Plan
-              </v-btn>
+              <WistiaVideoPlayer videoId="2uzyojv1fg" />
             </v-card>
           </v-col>
           <v-col cols="12" md="6" lg="4">
             <v-card
-              outlined
+              flat
               elevation="0"
               class="pricing-card overflow-hidden mb-15"
             >
-              <v-card-text class="text-center pa-15">
-                <h5 class="font-weight-regular font-18">Premium Plan</h5>
-                <div>
-                  <sup>$</sup>
-                  <span class="price-text">69</span>
-                  <h6 class="font-14 text-uppercase font-weight-regular">
-                    Yearly
-                  </h6>
-                </div>
-                <p class="mt-16 pt-4">
-                  The Master license allows you to customize, store and even
-                  host your website using your platform
-                </p>
-              </v-card-text>
-              <v-btn
-                block
-                large
-                depressed
-                color="info"
-                class="text-uppercase rounded-t-0"
-              >
-                Choose Plan
-              </v-btn>
+              <iframe
+                width="356"
+                height="200"
+                src="https://www.youtube.com/embed/JEVirFX6goE"
+                title="What is Finance: Learn Finance"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </v-card>
           </v-col>
         </v-row>

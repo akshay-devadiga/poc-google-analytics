@@ -12,7 +12,9 @@
                 Our products line up
               </h2>
               <p>
-              Our funds are managed by experienced professionals who employ thorough research and analysis to make informed investment decision
+                Our funds are managed by experienced professionals who employ
+                thorough research and analysis to make informed investment
+                decision
               </p>
             </div>
           </v-col>
@@ -35,11 +37,29 @@
                 />
               </div>
               <v-card-text>
-                <h5 class="font-weight-medium font-18">
-                  Stellar Growth Fund
-                </h5>
-                <p class="font-14 mb-0 mt-3">The Stellar Growth Fund is designed for investors seeking long-term capital appreciation by investing in high-growth companies across various sectors. This fund aims to identify companies with strong growth potential, innovative products, and robust financial performance. With a diversified portfolio and experienced fund managers, the Stellar Growth Fund offers investors the opportunity to participate in the growth potential of dynamic companies in both domestic and international markets.</p>
+                <h5 class="font-weight-medium font-18">Stellar Growth Fund</h5>
+                <p class="font-14 mb-0 mt-3">
+                  The Stellar Growth Fund is designed for investors seeking
+                  long-term capital appreciation by investing in high-growth
+                  companies across various sectors. This fund aims to identify
+                  companies with strong growth potential, innovative products,
+                  and robust financial performance. With a diversified portfolio
+                  and experienced fund managers, the Stellar Growth Fund offers
+                  investors the opportunity to participate in the growth
+                  potential of dynamic companies in both domestic and
+                  international markets.
+                </p>
               </v-card-text>
+              <v-card-actions>
+                <v-btn
+                  text
+                  color="deep-purple accent-4"
+                  href="https://www.pdfhost.net/index.php?Action=DownloadFile&id=50af7c5c4e3fcb46531c7f6cb6543c0e"
+                  download
+                >
+                  Download StellarGrowthFund.pdf
+                </v-btn>
+              </v-card-actions>
             </v-card>
           </v-col>
           <v-col cols="12" md="6" lg="4">
@@ -52,9 +72,31 @@
                 />
               </div>
               <v-card-text>
-                <h5 class="font-weight-medium font-18">Global Technology Fund</h5>
-                <p class="font-14 mb-0 mt-3">The Global Technology Fund is designed for investors seeking exposure to the rapidly evolving and dynamic technology sector. This fund focuses on investing in innovative companies involved in areas such as software, hardware, e-commerce, artificial intelligence, and cloud computing. With a global perspective and an emphasis on companies with a competitive advantage and strong growth prospects, the Global Technology Fund provides investors with the potential to benefit from the ongoing digital transformation across industries.</p>
+                <h5 class="font-weight-medium font-18">
+                  Global Technology Fund
+                </h5>
+                <p class="font-14 mb-0 mt-3">
+                  The Global Technology Fund is designed for investors seeking
+                  exposure to the rapidly evolving and dynamic technology
+                  sector. This fund focuses on investing in innovative companies
+                  involved in areas such as software, hardware, e-commerce,
+                  artificial intelligence, and cloud computing. With a global
+                  perspective and an emphasis on companies with a competitive
+                  advantage and strong growth prospects, the Global Technology
+                  Fund provides investors with the potential to benefit from the
+                  ongoing digital transformation across industries.
+                </p>
               </v-card-text>
+              <v-card-actions>
+                <v-btn
+                  text
+                  color="deep-purple accent-4"
+                  href="https://www.pdfhost.net/index.php?Action=DownloadFile&id=2e193e2e1d0b7f8d8b8b5c7b7269d498"
+                  download
+                >
+                  Download GlobalTechnologyFund.pdf
+                </v-btn>
+              </v-card-actions>
             </v-card>
           </v-col>
           <v-col cols="12" md="6" lg="4">
@@ -67,9 +109,31 @@
                 />
               </div>
               <v-card-text>
-                <h5 class="font-weight-medium font-18">Sustainable Impact Fund</h5>
-                <p class="font-14 mb-0 mt-3">The Sustainable Impact Fund aims to make a positive environmental and social impact while generating long-term returns for investors. This fund invests in companies that exhibit sustainable business practices, social responsibility, and innovative solutions to global challenges. By integrating environmental, social, and governance (ESG) factors into the investment process, the Sustainable Impact Fund offers investors the opportunity to align their financial goals with their values.</p>
+                <h5 class="font-weight-medium font-18">
+                  Sustainable Impact Fund
+                </h5>
+                <p class="font-14 mb-0 mt-3">
+                  The Sustainable Impact Fund aims to make a positive
+                  environmental and social impact while generating long-term
+                  returns for investors. This fund invests in companies that
+                  exhibit sustainable business practices, social responsibility,
+                  and innovative solutions to global challenges. By integrating
+                  environmental, social, and governance (ESG) factors into the
+                  investment process, the Sustainable Impact Fund offers
+                  investors the opportunity to align their financial goals with
+                  their values.
+                </p>
               </v-card-text>
+              <v-card-actions>
+                <v-btn
+                  text
+                  color="deep-purple accent-4"
+                  href="https://www.pdfhost.net/index.php?Action=DownloadFile&id=9692857e301f3a40091fc026bc72d48d"
+                  download
+                >
+                  Download SustainableImpactFund.pdf
+                </v-btn>
+              </v-card-actions>
             </v-card>
           </v-col>
         </v-row>
@@ -87,6 +151,10 @@ export default {
   data() {
     return {};
   },
-  methods: {},
 };
 </script>
+<!--  
+     StellarGrowthFund.pdf https://www.pdfhost.net/index.php?Action=DownloadFile&id=50af7c5c4e3fcb46531c7f6cb6543c0e 
+     GlobalTechnologyFund.pdf https://www.pdfhost.net/index.php?Action=DownloadFile&id=2e193e2e1d0b7f8d8b8b5c7b7269d498
+     SustainableImpactFund.pdf https://www.pdfhost.net/index.php?Action=DownloadFile&id=9692857e301f3a40091fc026bc72d48d   
+-->
